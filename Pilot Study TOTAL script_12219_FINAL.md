@@ -1,4 +1,4 @@
-#Pilot Study Transcriptome analysis 2017 
+# Cisco Egg and Larvae Transcriptome analysis 2017 
 
 ## All scripts combined
 
