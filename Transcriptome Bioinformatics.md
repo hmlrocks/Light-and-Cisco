@@ -2,7 +2,7 @@
 
 ## All scripts combined
 
-**Overall pipeline:** [Raw](#Raw-stats) -> [Fastqc](#Fastqc (on the raw files)) -> [Trim](#Trim) -> [fastqc](#Fastqc (on the cleaned files)) -> [File prep](#File-prep) -> [Trinity](#Trinity) ->  [TrinityStats.pl](#TrinityStats.pl) -> [BUSCO](#BUSCO) -> [Transdecoder](#Transdecoder) -> [Salmon](#Salmon) -> [Deseq2](#DESeq2) -> [BLAST](#BLAST) -> [GOterm](#DESeq2-and-BLAST-results-->-GOterms/Function-(using Uniprot)) -> [Functional Enrichment](#Functional-Enrichment) 
+**Overall pipeline:** [Raw](#Raw-stats) -> [Fastqc](#Fastqc (on the raw files)) -> [Trim](#Trim) -> [fastqc](#Fastqc (on the cleaned files)) -> [File prep](#File-prep) -> [Trinity](#Trinity) ->  [TrinityStats.pl](#TrinityStats.pl) -> [BUSCO](#BUSCO) -> [Transdecoder](#Transdecoder) -> [Salmon](#Salmon) -> [Deseq2](#DESeq2) -> [BLAST](#BLAST) -> [GOterm](#DESeq2-and-BLAST-results-->-GOterms/Function-(using-Uniprot)) -> [Functional Enrichment](#Functional-Enrichment) 
 
 All scripts/programs were run on a VACC (Vermont Advanced Computer Core) server unless otherwise specified.  Due to this, all script have a header required by the VACC to specify the amount of space and/or the number of hours the job is allowed to run.  If there is not header its possible the code was run directly on the server. 
 
