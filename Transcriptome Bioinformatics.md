@@ -1678,7 +1678,7 @@ cd $PBS_O_WORKDIR
 blastx -db uniref90_database -query T_all00 -out blast_Tall_uniprot_T_all00.out -max_target_seqs 1 -outfmt 6 -evalue 1e-5 -num_threads 12
 ```
 
-###BLAST(blastp): NR (example of 1 out of 6 scripts)
+### BLAST(blastp): NR (example of 1 out of 6 scripts)
 
 blastp = protein query  vs. protein database
 
