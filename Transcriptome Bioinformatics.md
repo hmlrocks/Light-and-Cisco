@@ -1789,7 +1789,7 @@ Using the following steps to create a file with either just the ***top significa
     for i in `cat reset_seqID_all.txt`; do grep ${i} blast_Tall_uniprot_T_all0*.out; done > reset_seq_geneID.txt
     ```
 
-###3) Upload list of UniRef90 IDs to Uniprot website
+### 3) Upload list of UniRef90 IDs to Uniprot website
 
 * Go to the UniProt Website and click on **"Retrieve/ID mapping"**: https://www.uniprot.org/uploadlists/
 * Open the .txt file we generated in step 2 in excel. Copy the column of UniRef90 IDs and paste the list into the "1. Provide your identifiers" box on the UniProt website. 
