@@ -1741,7 +1741,7 @@ tblastx -db salmon_database -query T_all00 -out blast_Tall_salmon_T_all00.xml -m
 
 Below are steps to take the DESeq2 and BLAST results and turn them into a list of GOterms/functions 
 
-###1) Output results from DESeq2
+### 1) Output results from DESeq2
 
 * Run **"Model:Egg ONLY, design = tank"** in [DESeq2_ciscolight_6418.R](#DESeq2)
 
